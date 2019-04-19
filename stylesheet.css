@@ -1,0 +1,126 @@
+body{
+  background-color: #424242;
+  color: #FAFAFA;
+}
+
+a{
+  color: #9E9E9E;
+}
+
+div.search {
+  text-align: center;
+}
+
+div.login{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.top{
+  text-align: center;
+}
+
+div.center{
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+textarea{
+  width: 400px;
+  height: 80px;
+  resize: none;
+}
+
+th{
+  width: 200px;
+}
+th.date{
+  width: 150px;
+}
+
+th.desc{
+  width: 350px;
+}
+
+th.ev{
+  width: 250px;
+}
+
+th.name{
+  width: 300px;
+}
+
+th.acitons{
+  width:250px;
+}
+
+td{
+  width: 200px;
+}
+
+td.desc{
+  width: 350px;
+}
+
+td.ev{
+  width: 250px;
+}
+
+td.date{
+  width: 200px;
+}
+
+td.name{
+  width: 300px;
+}
+
+td.actions{
+  width:300px;
+}
+
+button{
+  background-color: #212121;
+  color: #FAFAFA;
+}
+
+select{
+  background-color: #212121;
+  color: #FAFAFA;
+}
+button.center{
+  text-align: center;
+}
+
+.centered {
+  text-align: center;
+  align: center;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  background-color: #9E9E9E;
+  margin: 5px auto; /* 15% from the top and centered */
+  border: 1px solid #EEEEEE;
+  width: 50%; /* Could be more or less, depending on screen size */
+}
